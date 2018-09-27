@@ -11,7 +11,7 @@ public class QueryProcessor {
 
         if (query.toLowerCase().contains("erica")) {
             return "Erica is working in DB " +
-                    "She is a developer " +
+                    "She is a beautiful developer " +
                     "using Clojure language in GRETL team.";
         }
         return "";
