@@ -20,7 +20,7 @@ public class QueryProcessor {
         }
 
         if (query.toLowerCase().contains("plus")) {
-            return "add";
+            return "addDe";
         }
         return "";
     }
