@@ -14,6 +14,10 @@ public class QueryProcessor {
                     "She is a beautiful developer hahhah" +
                     "using Clojure language in GRETL team.";
         }
+
+        if (query.toLowerCase().contains("team")) {
+            return "TeamNameNotDefined";
+        }
         return "";
     }
 }
