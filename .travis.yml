@@ -4,5 +4,5 @@ jdk:
 script: mvn clean verify
 deploy:
   provider: heroku
-  api_key: 9d95330a-0815-4e4c-9c44-b1dea0ac23d4
+  api_key: "9d95330a-0815-4e4c-9c44-b1dea0ac23d4"
   app: nanproject
