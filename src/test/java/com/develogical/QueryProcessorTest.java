@@ -32,7 +32,7 @@ public class QueryProcessorTest {
 
     @Test
     public void teamName() throws Exception {
-        assertThat(queryProcessor.process("team"), containsString("TeamNameNotDefined"));
+        assertThat(queryProcessor.process("name"), containsString("TeamNameNotDefined"));
     }
 
 }

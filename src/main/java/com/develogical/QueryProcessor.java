@@ -15,7 +15,7 @@ public class QueryProcessor {
                     "using Clojure language in GRETL team.";
         }
 
-        if (query.toLowerCase().contains("team")) {
+        if (query.toLowerCase().contains("name")) {
             return "TeamNameNotDefined";
         }
         return "";
