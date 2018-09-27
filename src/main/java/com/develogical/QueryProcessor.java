@@ -18,6 +18,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "TeamNameNotDefined";
         }
+
+        if (query.toLowerCase().contains("plus")) {
+            return "add";
+        }
         return "";
     }
 }
